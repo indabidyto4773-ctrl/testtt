@@ -1,0 +1,12 @@
+# Example Dockerfile (optional)
+FROM python:3.11-slim
+
+WORKDIR /app
+COPY requirements.txt config.py bot.py ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+# create folders
+RUN mkdir -p /app/watch /app/uploaded
+VOLUME ["/app/watch", "/app/uploaded"]
+
+CMD ["python", "bot.py"]
