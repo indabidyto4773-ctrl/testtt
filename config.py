@@ -1,11 +1,11 @@
 # Copy to config.py and fill in values
 # TELEGRAM (user) credentials — required for uploading files >50MB or for using a user account to post:
-API_ID = 123456               # integer from https://my.telegram.org
-API_HASH = "0123456789abcdef0123456789abcdef"
-SESSION_NAME = "uploader_session"  # file created to store session (e.g., uploader_session.session)
+API_ID = 31101959              # integer from https://my.telegram.org
+API_HASH = "3ca4f3e815c8e3df8aa1a00b8f81f22e"
+SESSION_NAME = "uploader_session.abid"  # file created to store session (e.g., uploader_session.session)
 
 # TARGET: channel username (e.g. "@yourdatabasechannel") or numeric id (e.g. -1001234567890)
-TARGET_CHANNEL = "@yourdatabasechannel"
+TARGET_CHANNEL = "@fryy7rrl"
 
 # Folder to watch for new episode files
 WATCH_DIR = "./watch"
