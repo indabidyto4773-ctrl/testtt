@@ -30,8 +30,8 @@ except Exception as e:
     print("Missing or invalid config.py. Copy config.example.py -> config.py and edit.")
     raise
 
-API_ID = config.API_ID
-API_HASH = config.API_HASH
+API_ID = 31101959
+API_HASH = 3ca4f3e815c8e3df8aa1a00b8f81f22e
 SESSION_NAME = getattr(config, "SESSION_NAME", "uploader_session")
 TARGET_CHANNEL = config.TARGET_CHANNEL
 WATCH_DIR = Path(config.WATCH_DIR)
